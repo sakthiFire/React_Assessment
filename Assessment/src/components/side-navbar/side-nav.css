@@ -1,0 +1,13 @@
+.side-nav-bar img{
+    width: 40px;
+}
+.side-nav-bar{
+    width: 70px;
+    height: 100vh;
+}
+.side-nav-bar .aside img:first-child{
+    width: 25px;
+}
+.side-nav-bar .aside{
+    margin-top: 30px;
+}

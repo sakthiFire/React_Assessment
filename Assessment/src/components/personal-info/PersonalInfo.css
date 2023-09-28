@@ -1,0 +1,30 @@
+.input-form input,
+.input-form select{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(106, 104, 104);
+    outline: none;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.input-form{
+    position: relative;
+}
+.personal-info .card-body{
+    padding-right: 30px;
+}
+.add-question img{
+    width: 15px;
+    margin-bottom: 3px;
+}
+.personal-info select{
+    border-radius: 0;
+}
+.personal-info .card .card-body.active-question-dropdown #question{
+    display: block !important;
+}
+.personal-info .add-question button{
+    border: none;
+    background-color: transparent;
+}

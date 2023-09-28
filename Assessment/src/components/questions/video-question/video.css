@@ -1,0 +1,55 @@
+.video-duration .video-select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(129, 129, 129);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.video-duration.active .uparrow{
+    transform: rotate(180deg);
+}
+.video-duration .video-select-label,
+.video-options p{
+    margin-bottom: 3px !important;
+}
+.video-duration .video-duration-dropdown{
+    width: 219px;
+}
+.video-duration .duration-input{
+    margin-right: 10px;
+}
+.video-duration.active .video-options{
+    display: block !important;
+}
+.video-duration .video-options .video-option:hover{
+    background-color: rgba(184, 184, 184, 0.2);
+}
+
+.video-duration a{
+    color: black;
+    text-decoration: none;
+}
+.video-duration ul{
+    padding: 0;
+}
+.video-duration .video-options .video-option{
+    list-style: none;
+    padding: 5px 15px;
+}
+.video-duration .video-options{
+    background-color: white;
+    width: inherit;
+    padding-bottom: 3px;
+    box-shadow: 0px 1px 11px 1px #c3c3c368;
+    border-radius: 0 0 5px 5px;
+}
+.video-duration p:hover,
+.video-duration small:hover,
+.video-duration strong:hover,
+.video-duration li:hover,
+.video-duration .video-select:hover{
+    cursor: pointer;
+}

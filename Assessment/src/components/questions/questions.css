@@ -1,0 +1,76 @@
+.select-menu{
+    margin-top: 40px;
+}
+.select-menu .select{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(129, 129, 129);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.select-menu .uparrow{
+    width: 10px;
+    padding: 0;
+    margin-top:4px;
+    transition: transform 100ms linear;
+}
+.select-menu.active .uparrow{
+    transform: rotate(180deg);
+}
+.select-menu a{
+    color: black;
+    text-decoration: none;
+}
+.select-menu ul{
+    padding: 0;
+}
+.select-menu .options .option{
+    list-style: none;
+    padding: 5px 15px;
+}
+.select-menu .options{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 3px;
+    box-shadow: 0px 1px 11px 1px #c3c3c368;
+    border-radius: 0 0 5px 5px;
+}
+.select-menu .options .option:hover{
+    background-color: rgba(184, 184, 184, 0.2);
+}
+.select-menu .select-label,
+.options p{
+    margin-bottom: 3px !important;
+}
+.select-menu.active .options{
+    display: block !important;
+}
+.select-menu .question-box input{
+    border: 1px solid rgb(129, 129, 129);
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: 38.35px;
+}
+
+.select-menu .delete-btn{
+    margin-bottom: 20px;
+}
+.select-menu .save-btn button{
+    outline: none;
+    background-color: #00fffb;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 15px 6px 15px;
+}
+.select-menu .delete-btn:hover{
+    cursor: pointer;
+}
+.select-menu p:hover,
+.select-menu small:hover,
+.select-menu strong:hover,
+.select-menu li:hover,
+.select-menu .select:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.nav-bar{
+    box-shadow: 8px 0px 10px -5px black;
+    margin-top: 90px;
+    transition:all 100ms linear;
+}
+.nav-bar .active{
+    background-color: rgb(33,94,93);
+}
+.nav-bar img{
+    width: 29px;
+}
+
+@media only screen and (max-width:700px) {
+    #nav-bar-lg{
+        display: none !important;
+    }
+    #nav-bar-sm{
+        display: flex;
+    }
+}
+@media only screen and (min-width:700px){
+    #nav-bar-lg{
+        display: flex !important;
+    }
+    #nav-bar-sm{
+        display: none !important;
+    }
+}
